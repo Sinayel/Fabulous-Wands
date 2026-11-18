@@ -17,7 +17,14 @@ import net.minecraft.world.World;
 
 public class WandEntity extends Item implements ProjectileItem {
     public WandEntity(Item.Settings settings) { super(settings); }
-
+    /**
+     * Use(): First implementation of shooting with the wand
+     * Play sound and throw Wand
+     * @param world  The overworld
+     * @param user The user
+     * @param hand The hand of the player
+     * @return Success if it success
+     */
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack itemStack = user.getStackInHand(hand);
@@ -32,10 +39,10 @@ public class WandEntity extends Item implements ProjectileItem {
                 0.4F / (world.getRandom().nextFloat() * 0.4F + 0.8F)
         );
         if (!world.isClient) {
-            SnowballEntity snowballEntity = new SnowballEntity(world, user);
-            snowballEntity.setItem(itemStack);
-            snowballEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 1.5F, 1.0F);
-            world.spawnEntity(snowballEntity);
+            SnowballEntity wandEntity = new SnowballEntity(world, user);
+            wandEntity.setItem(itemStack);
+            wandEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 1.5F, 1.0F);
+            world.spawnEntity(wandEntity);
         }
 
         user.incrementStat(Stats.USED.getOrCreateStat(this));
@@ -45,8 +52,8 @@ public class WandEntity extends Item implements ProjectileItem {
 
     @Override
     public ProjectileEntity createEntity(World world, Position pos, ItemStack stack, Direction direction) {
-        SnowballEntity snowballEntity = new SnowballEntity(world, pos.getX(), pos.getY(), pos.getZ());
-        snowballEntity.setItem(stack);
-        return snowballEntity;
+        SnowballEntity wandEntity = new SnowballEntity(world, pos.getX(), pos.getY(), pos.getZ());
+        wandEntity.setItem(stack);
+        return wandEntity;
     }
 }

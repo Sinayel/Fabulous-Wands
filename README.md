@@ -234,7 +234,7 @@ The mod `.jar` will be in `build/libs/`.
 
 ---
 
-## 🗺️ Roadmap
+## 🧭 Roadmap
 
 - [x] Design the mod (wands, items, blocks, crafts)
 - [X] Make a roadmap before coding
@@ -249,9 +249,10 @@ The mod `.jar` will be in `build/libs/`.
 - [ ] Wizard NPC
 - [ ] More content (armor, tools, specialties, special items…)
 
+
 ---
 
-## ℹ️ Mod Info
+## 📌 Mod Info
 
 | | |
 |---|---|

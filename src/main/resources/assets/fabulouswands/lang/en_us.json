@@ -1,4 +1,5 @@
 {
-  "item.fabulouswands.test_item": "Test Item",
-  "item.fabulouswands.second_item": "Test Second Item"
+  "item.fabulouswands.noble_wood": "Noble Wood",
+  "item.fabulouswands.noble_plank": "Noble Plank",
+  "item.fabulouswands.wand": "Apprentice Wand"
 }

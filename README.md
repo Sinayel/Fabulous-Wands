@@ -237,8 +237,8 @@ The mod `.jar` will be in `build/libs/`.
 ## 🗺️ Roadmap
 
 - [x] Design the mod (wands, items, blocks, crafts)
-- [ ] Make a roadmap before coding
-- [ ] Start coding
+- [X] Make a roadmap before coding
+- [X] Start coding
 - [ ] Tame Leather, Noble Wood, Noble Plank, Noble Stick
 - [ ] WandCraft Table
 - [ ] First wand

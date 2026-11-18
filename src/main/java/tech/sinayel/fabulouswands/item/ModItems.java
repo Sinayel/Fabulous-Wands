@@ -10,8 +10,9 @@ import net.minecraft.util.Identifier;
 import tech.sinayel.fabulouswands.FabulousWands;
 
 public class ModItems {
-    public static final Item TEST_FIRST_OBJECT = registerItems("test_item", new Item(new Item.Settings()));
-    public static final Item SECOND_FIRST_OBJECT = registerItems("second_item", new Item(new Item.Settings()));
+    public static final Item NOBLE_WOOD = registerItems("noble_wood", new Item(new Item.Settings()));
+    public static final Item NOBLE_PLANK = registerItems("noble_plank", new Item(new Item.Settings()));
+    public static final Item WAND = registerItems("wand", new WandEntity(new Item.Settings().maxCount(1)));
 
     public static Item registerItems(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(FabulousWands.MOD_ID, name), item);
@@ -20,10 +21,13 @@ public class ModItems {
     public static void registerModItems() {
         FabulousWands.LOGGER.info("Registering mod item for " + FabulousWands.MOD_ID);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(TEST_FIRST_OBJECT);
+            entries.add(NOBLE_WOOD);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(SECOND_FIRST_OBJECT);
+            entries.add(NOBLE_PLANK);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
+            entries.add(WAND);
         });
     }
 }

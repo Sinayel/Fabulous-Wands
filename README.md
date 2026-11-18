@@ -98,7 +98,7 @@ Wands can be **crafted** in the WandCraft Table or **bought** from the [Wizard N
 
 ---
 
-## 🛡️ Wizard Armor & Tools
+## 🧥 Wizard Armor & Tools
 
 Crafted in the **WandCraft Table**. Armor is **unbreakable**: it has a durability and is repaired at the **Ollivander Workbench**.
 You must **wear the armor** to use the matching wands.

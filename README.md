@@ -69,8 +69,6 @@ Every wand is defined by:
 
 The **specialty** of a wand is linked to its **type**, and comes from the [special item](#-special-items) used to craft it.
 Type 1 is the worst and most common, type 5 is the best and rarest.
-★ = common
-★★★★★ = very rare
 
 | Type | Title               | Specialty     | Rarity | Durability |
 | :--: | ------------------- | ------------- | :----: | :--------: |
@@ -79,6 +77,8 @@ Type 1 is the worst and most common, type 5 is the best and rarest.
 |  3   | Medium Wizard       | 🔥 Fire       |  ★★★   |    850     |
 |  4   | Master Wizard       | *Coming soon* |  ★★★★  |    1250    |
 |  5   | Grand Master Wizard | 🌪️ Air       | ★★★★★  |    1650    |
+
+★ = common ★★★★★ = very rare
 
 Wands can be **crafted** in the WandCraft Table or **bought** from the [Wizard NPC](#-wizard-npc).
 
@@ -225,8 +225,8 @@ When the first version is out:
 Requires **Java 21**.
 
 ```bash
-git clone <this-repo-url>
-cd fabulous-wands
+git clone git@github.com:Sinayel/Fabulous-Wands.git
+cd Fabulous-Wands
 ./gradlew build
 ```
 
@@ -239,12 +239,13 @@ The mod `.jar` will be in `build/libs/`.
 - [x] Design the mod (wands, items, blocks, crafts)
 - [X] Make a roadmap before coding
 - [X] Start coding
-- [ ] Tame Leather, Noble Wood, Noble Plank, Noble Stick
-- [ ] WandCraft Table
-- [ ] First wand
+- [X] Noble Wood, Noble Plank, Noble Stick
+- [X] First wand with shooting
+- [ ] WandCraft Table, Tame Leather
 - [ ] Ollivander Workbench
 - [ ] Noble Tree and world generation
 - [ ] Spells
+- [ ] Upgrade shooting styles (without bullet drop or less)
 - [ ] Wizard NPC
 - [ ] More content (armor, tools, specialties, special items…)
 

@@ -46,7 +46,7 @@ public class WandItem extends Item implements ProjectileItem {
         }
 
         user.incrementStat(Stats.USED.getOrCreateStat(this));
-        user.getItemCooldownManager().set(this, 100); // default cooldown = 5sec
+//        user.getItemCooldownManager().set(this, 100); // default cooldown = 5sec
         // itemStack.decrement(1); // destroy your wand
         return TypedActionResult.success(itemStack, world.isClient());
     }

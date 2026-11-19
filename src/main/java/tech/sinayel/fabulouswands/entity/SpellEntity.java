@@ -9,7 +9,7 @@ import net.minecraft.entity.Ownable;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
+import tech.sinayel.fabulouswands.block.ModBlocks;
 import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.BlockPos;
@@ -39,7 +39,7 @@ public class SpellEntity extends ThrownItemEntity implements Ownable {
 
     @Override
     protected Item getDefaultItem() {
-        return Items.SNOWBALL; // apparence en vol (temporaire)
+        return ModBlocks.NOBLE_PLANK.asItem(); // apparence en vol (temporaire
     }
 
     @Override
@@ -57,6 +57,7 @@ public class SpellEntity extends ThrownItemEntity implements Ownable {
         }
     }
 
+    // Explosion fonction
     private static final ExplosionBehavior TELEPORTED_EXPLOSION_BEHAVIOR = new ExplosionBehavior() {
         @Override
         public boolean canDestroyBlock(Explosion explosion, BlockView world, BlockPos pos, BlockState state, float power) {

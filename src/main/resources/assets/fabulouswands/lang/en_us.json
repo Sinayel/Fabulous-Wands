@@ -1,5 +1,5 @@
 {
-  "item.fabulouswands.noble_wood": "Noble Wood",
-  "item.fabulouswands.noble_plank": "Noble Plank",
+  "block.fabulouswands.noble_plank": "Noble Plank",
+  "block.fabulouswands.noble_log": "Noble Log",
   "item.fabulouswands.wand": "Apprentice Wand"
 }

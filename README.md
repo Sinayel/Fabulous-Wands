@@ -241,10 +241,11 @@ The mod `.jar` will be in `build/libs/`.
 - [X] Start coding
 - [X] Noble Wood, Noble Plank, Noble Stick
 - [X] First wand with shooting
+- [X] 1 Spell
 - [ ] WandCraft Table, Tame Leather
 - [ ] Ollivander Workbench
+- [ ] Spell Wheel
 - [ ] Noble Tree and world generation
-- [ ] Spells
 - [ ] Upgrade shooting styles (without bullet drop or less)
 - [ ] Wizard NPC
 - [ ] More content (armor, tools, specialties, special items…)

@@ -24,7 +24,7 @@ public class ModBlocks {
             )
     );
 
-    // Une bûche est un PillarBlock : elle s'oriente selon le sens où on la pose.
+    // Une buche est un PillarBlock : elle s'oriente selon le sens ou on la pose
     public static final Block NOBLE_LOG = registerBlocks(
             "noble_log",
             new PillarBlock(
@@ -32,16 +32,13 @@ public class ModBlocks {
             )
     );
 
-    // Table de craft des baguettes (pour l'instant un simple bloc décoratif, sans interface).
+    // Table de craft des baguettes (pour l'instant un simple bloc decoratif, sans interface)
     public static final Block WANDCRAFT_TABLE = registerBlocks(
             "wandcraft_table",
-            new Block(
+            new WandcraftTableBlock(
                     AbstractBlock.Settings.create().mapColor(MapColor.OAK_TAN).instrument(NoteBlockInstrument.BASS).strength(2.5F).sounds(BlockSoundGroup.WOOD).burnable()
             )
     );
-
-    public static final Block NEW_BLOCK = registerBlocks("new_block", new Block(AbstractBlock.Settings.create().mapColor(MapColor.OAK_TAN
-    ).instrument(NoteBlockInstrument.BASS).strength(2.5F).sounds(BlockSoundGroup.WOOD).burnable()));
 
     private static Block registerBlocks(String name, Block block) {
         registerBlockItem(name, block);

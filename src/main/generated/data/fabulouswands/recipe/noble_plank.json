@@ -1,10 +1,13 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "building",
-  "ingredients": [
-    {
+  "key": {
+    "#": {
       "item": "fabulouswands:noble_log"
     }
+  },
+  "pattern": [
+    "#"
   ],
   "result": {
     "count": 4,

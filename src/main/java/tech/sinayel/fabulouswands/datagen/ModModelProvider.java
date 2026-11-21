@@ -17,7 +17,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         // block simple, same texture on all faces
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.NOBLE_PLANK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WANDCRAFT_TABLE);
 
         // Wood, different angle
         blockStateModelGenerator.registerLog(ModBlocks.NOBLE_LOG).log(ModBlocks.NOBLE_LOG);
@@ -26,6 +25,6 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.TAME_LEATHER, Models.GENERATED);
-        itemModelGenerator.register(ModItems.WAND, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NOBLE_STICK, Models.GENERATED);
     }
 }

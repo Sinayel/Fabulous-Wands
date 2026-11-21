@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "item",
+  "category": "misc",
   "key": {
     "#": {
       "item": "fabulouswands:noble_plank"
@@ -11,7 +11,7 @@
     "#"
   ],
   "result": {
-    "count": 1,
+    "count": 2,
     "id": "fabulouswands:noble_stick"
   }
 }

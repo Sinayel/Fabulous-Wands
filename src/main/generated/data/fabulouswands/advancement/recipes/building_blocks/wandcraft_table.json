@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_noble_plank": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fabulouswands:noble_plank"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tame_leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fabulouswands:tame_leather"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "fabulouswands:wandcraft_table"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_noble_plank",
+      "has_tame_leather"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "fabulouswands:wandcraft_table"
+    ]
+  }
+}

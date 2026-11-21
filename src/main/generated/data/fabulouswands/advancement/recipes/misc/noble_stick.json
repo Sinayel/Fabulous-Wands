@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_noble_plank": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fabulouswands:noble_plank"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "fabulouswands:noble_stick"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_noble_plank"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "fabulouswands:noble_stick"
+    ]
+  }
+}

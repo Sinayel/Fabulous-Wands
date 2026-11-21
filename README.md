@@ -27,17 +27,25 @@ Craft wands with different **types** and **specialties**, cast **spells**, wear 
 
 ---
 
-## Galery
+## Gallery
 
-![All Item](https://github.com/Sinayel/Fabulous-Wands/tree/main/img/all_item.png)
+![All Items](img/all_items.png)
 
-![Noble Plank](https://github.com/Sinayel/Fabulous-Wands/tree/main/img/noble_plank_craft.png)
+![Noble Plank](img/noble_plank_craft.png)
+\
+*(1 Noble Log = **4 Noble Planks**)*
 
-![Noble Stick](https://github.com/Sinayel/Fabulous-Wands/tree/main/img/noble_stick_craft.png)
+![Noble Stick](img/noble_stick_craft.png)
+\
+*(2 Noble Plank = **2 Noble Stick**)*
 
-![Tame Leather](https://github.com/Sinayel/Fabulous-Wands/tree/main/img/tame_leather_craft.png)
+![Tame Leather](img/tame_leather_craft.png)
+\
+*(2 Leather = **1 Tame Leather**)*
 
-![Wandcraft Table](https://github.com/Sinayel/Fabulous-Wands/tree/main/img/wandcraft_table_craft.png)
+![Wandcraft Table](img/wandcraft_table_craft.png)
+\
+*(2 Tame Leather & 2 Noble Plank = **1 Wandcraft Table**)*
 
 ---
 

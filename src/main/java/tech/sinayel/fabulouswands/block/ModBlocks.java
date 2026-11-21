@@ -8,6 +8,7 @@ import net.minecraft.block.PillarBlock;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -43,9 +44,5 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         FabulousWands.LOGGER.info("Registering mod block for " + FabulousWands.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(NOBLE_LOG);
-            entries.add(NOBLE_PLANK);
-        });
     }
 }

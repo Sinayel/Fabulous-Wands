@@ -242,6 +242,7 @@ The mod `.jar` will be in `build/libs/`.
 - [X] Noble Wood, Noble Plank, Noble Stick
 - [X] First wand with shooting
 - [X] 1 Spell
+- [X] Add Craft, Plank, Stick
 - [ ] WandCraft Table, Tame Leather
 - [ ] Ollivander Workbench
 - [ ] Spell Wheel

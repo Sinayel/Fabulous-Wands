@@ -32,6 +32,17 @@ public class ModBlocks {
             )
     );
 
+    // Table de craft des baguettes (pour l'instant un simple bloc décoratif, sans interface).
+    public static final Block WANDCRAFT_TABLE = registerBlocks(
+            "wandcraft_table",
+            new Block(
+                    AbstractBlock.Settings.create().mapColor(MapColor.OAK_TAN).instrument(NoteBlockInstrument.BASS).strength(2.5F).sounds(BlockSoundGroup.WOOD).burnable()
+            )
+    );
+
+    public static final Block NEW_BLOCK = registerBlocks("new_block", new Block(AbstractBlock.Settings.create().mapColor(MapColor.OAK_TAN
+    ).instrument(NoteBlockInstrument.BASS).strength(2.5F).sounds(BlockSoundGroup.WOOD).burnable()));
+
     private static Block registerBlocks(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(FabulousWands.MOD_ID, name), block);

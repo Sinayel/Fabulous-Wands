@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "fabulouswands:block/wandcraft_table_front_1",
+    "north": "fabulouswands:block/wandcraft_table_front_1",
+    "south": "fabulouswands:block/wandcraft_table_front_2",
+    "east": "fabulouswands:block/wandcraft_table_side_1",
+    "west": "fabulouswands:block/wandcraft_table_side_2",
+    "up": "fabulouswands:block/wandcraft_table_top",
+    "down": "fabulouswands:block/wandcraft_table_bottom"
+  }
+}

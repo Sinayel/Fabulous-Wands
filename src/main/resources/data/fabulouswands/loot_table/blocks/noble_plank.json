@@ -4,10 +4,14 @@
     {
       "rolls": 1,
       "entries": [
-        { "type": "minecraft:item", "name": "fabulouswands:noble_plank" }
+        {
+          "type": "minecraft:item", "name": "fabulouswands:noble_plank"
+        }
       ],
       "conditions": [
-        { "condition": "minecraft:survives_explosion" }
+        {
+          "condition": "minecraft:survives_explosion"
+        }
       ]
     }
   ]

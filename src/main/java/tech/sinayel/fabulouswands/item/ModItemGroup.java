@@ -3,6 +3,7 @@ package tech.sinayel.fabulouswands.item;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -26,6 +27,14 @@ public class ModItemGroup {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.NOBLE_STICK);
                         entries.add(ModItems.TAME_LEATHER);
+                    }).build());
+
+    public static final ItemGroup FABULOUSWANDS_BOOKS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(FabulousWands.MOD_ID, "fabulouswands_book"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.MAGIC_BOOK))
+                    .displayName(Text.translatable("itemgroup.fabulouswands.fabulouswands_book"))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.MAGIC_BOOK);
                     }).build());
 
     public static final ItemGroup FABULOUSWANDS_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

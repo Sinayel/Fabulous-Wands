@@ -19,6 +19,7 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.TAME_LEATHER, "Tame Leather");
         translationBuilder.add(ModItems.WAND, "Wand");
         translationBuilder.add(ModItems.NOBLE_STICK, "Noble Stick");
+        translationBuilder.add(ModItems.MAGIC_BOOK, "Magic Book");
 
         // Blocks
         translationBuilder.add(ModBlocks.NOBLE_LOG, "Noble Log");
@@ -29,5 +30,6 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemgroup.fabulouswands.fabulouswands_wand", "Fabulous Wands");
         translationBuilder.add("itemgroup.fabulouswands.fabulouswands_item", "Fabulous Items");
         translationBuilder.add("itemgroup.fabulouswands.fabulouswands_block", "Fabulous Wands Blocks");
+        translationBuilder.add("itemgroup.fabulouswands.fabulouswands_book", "Fabulous Wands Spells Books");
     }
 }

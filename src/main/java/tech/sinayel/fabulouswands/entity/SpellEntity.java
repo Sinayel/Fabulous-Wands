@@ -29,17 +29,14 @@ public class SpellEntity extends ThrownItemEntity implements Ownable {
         super(type, world);
     }
 
-    public SpellEntity(World world, LivingEntity owner) {
-        super(ModEntities.SPELL, owner, world);
-    }
+    public SpellEntity(World world, LivingEntity owner) { super(ModEntities.SPELL, owner, world); }
 
-    public SpellEntity(World world, double x, double y, double z) {
-        super(ModEntities.SPELL, x, y, z, world);
-    }
+    public SpellEntity(World world, double x, double y, double z) { super(ModEntities.SPELL, x, y, z, world); }
+
 
     @Override
     protected Item getDefaultItem() {
-        return ModBlocks.NOBLE_PLANK.asItem(); // apparence en vol (temporaire
+        return ModBlocks.NOBLE_PLANK.asItem(); // apparence en vol (temporaire)
     }
 
     @Override
@@ -55,6 +52,15 @@ public class SpellEntity extends ThrownItemEntity implements Ownable {
             this.explode();
             this.discard(); // disparaît à l'impact
         }
+    }
+
+    @Override
+    public void tick() {
+        super.tick();
+        if(!this.getWorld().isClient() && this.age >= 100)
+            this.explode();
+//        if(!this.getWorld().isClient() && this.age >= 105)
+//            this.discard();
     }
 
     // Explosion fonction

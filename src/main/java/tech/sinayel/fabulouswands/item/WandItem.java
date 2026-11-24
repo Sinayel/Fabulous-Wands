@@ -33,9 +33,9 @@ public class WandItem extends Item implements ProjectileItem {
                 user.getX(),
                 user.getY(),
                 user.getZ(),
-                SoundEvents.ENTITY_SNOWBALL_THROW,
+                SoundEvents.ENTITY_LIGHTNING_BOLT_IMPACT,
                 SoundCategory.NEUTRAL,
-                0.5F,
+                0.8F,
                 0.4F / (world.getRandom().nextFloat() * 0.4F + 0.8F)
         );
         if (!world.isClient) {

@@ -1,6 +1,6 @@
-// 1.21.1	2026-11-24T18:02:23.026474337	Fabulous Wands/Recipes
+// 1.21.1	2026-11-24T18:14:46.230450845	Fabulous Wands/Recipes
 defde192527b3ec77dd95f272637bb05523fe6f9 data/fabulouswands/recipe/wandcraft_table.json
-f546636fbb4135c616ed491306948e49c1d0b011 data/fabulouswands/recipe/noble_plank.json
+d96ecd4d64f6bb227041f60f1957cac335084228 data/fabulouswands/recipe/noble_plank.json
 099a10c117ee939fbddafe3c91f3af30c3b5fe63 data/fabulouswands/recipe/tame_leather.json
 a9d25c1e351721f3b5d2fe0b3b3dcea6d0891b90 data/fabulouswands/recipe/noble_stick.json
 0e44fa1d67558cf17b79a082ba25298bfbd1bea6 data/fabulouswands/advancement/recipes/building_blocks/noble_plank.json

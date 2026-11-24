@@ -45,7 +45,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, Identifier.of(FabulousWands.MOD_ID, "magic_book_from_leather"));
 
         // Blocks
-        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.NOBLE_PLANK, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.NOBLE_PLANK)
                 .pattern("#")
                 .input('#', ModBlocks.NOBLE_LOG)
                 .criterion(hasItem(ModBlocks.NOBLE_LOG), conditionsFromItem(ModBlocks.NOBLE_LOG))

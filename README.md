@@ -29,7 +29,8 @@ Craft wands with different **types** and **specialties**, cast **spells**, wear 
 
 ## Gallery
 
-![All Items](img/all_items.png)
+![All Items](img/all_img.png)
+![Spell Wheel](img/spell_wheel.png)
 
 ![Noble Plank](img/noble_plank_craft.png)
 \

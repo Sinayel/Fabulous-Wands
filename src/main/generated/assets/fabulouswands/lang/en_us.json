@@ -2,6 +2,7 @@
   "block.fabulouswands.noble_log": "Noble Log",
   "block.fabulouswands.noble_plank": "Noble Plank",
   "block.fabulouswands.wandcraft_table": "WandCraft Table",
+  "category.fabulouswands": "Fabulous Wands",
   "item.fabulouswands.magic_book": "Magic Book",
   "item.fabulouswands.noble_stick": "Noble Stick",
   "item.fabulouswands.tame_leather": "Tame Leather",
@@ -9,5 +10,6 @@
   "itemgroup.fabulouswands.fabulouswands_block": "Fabulous Wands Blocks",
   "itemgroup.fabulouswands.fabulouswands_book": "Fabulous Wands Spells Books",
   "itemgroup.fabulouswands.fabulouswands_item": "Fabulous Items",
-  "itemgroup.fabulouswands.fabulouswands_wand": "Fabulous Wands"
+  "itemgroup.fabulouswands.fabulouswands_wand": "Fabulous Wands",
+  "key.fabulouswands.spell_wheel": "Roue des sorts"
 }

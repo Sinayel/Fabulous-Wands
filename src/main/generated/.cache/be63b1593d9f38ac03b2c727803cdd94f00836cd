@@ -1,9 +1,9 @@
-// 1.21.1	2026-11-24T11:48:03.803574246	Fabulous Wands/Recipes
-099a10c117ee939fbddafe3c91f3af30c3b5fe63 data/fabulouswands/recipe/tame_leather.json
-25d8d7b4b3fcab820bcddea5e886b4ab48252ed1 data/fabulouswands/advancement/recipes/misc/tame_leather.json
-f546636fbb4135c616ed491306948e49c1d0b011 data/fabulouswands/recipe/noble_plank.json
-d78bb53987893d8102cae3c3cda6f9ba0c63bf85 data/fabulouswands/advancement/recipes/misc/noble_stick.json
-0e44fa1d67558cf17b79a082ba25298bfbd1bea6 data/fabulouswands/advancement/recipes/building_blocks/noble_plank.json
-263f091a9e39b7fb07428fad1a9ee35168bfb07a data/fabulouswands/advancement/recipes/building_blocks/wandcraft_table.json
-a9d25c1e351721f3b5d2fe0b3b3dcea6d0891b90 data/fabulouswands/recipe/noble_stick.json
+// 1.21.1	2026-11-24T14:55:22.827139752	Fabulous Wands/Recipes
 defde192527b3ec77dd95f272637bb05523fe6f9 data/fabulouswands/recipe/wandcraft_table.json
+f546636fbb4135c616ed491306948e49c1d0b011 data/fabulouswands/recipe/noble_plank.json
+099a10c117ee939fbddafe3c91f3af30c3b5fe63 data/fabulouswands/recipe/tame_leather.json
+a9d25c1e351721f3b5d2fe0b3b3dcea6d0891b90 data/fabulouswands/recipe/noble_stick.json
+0e44fa1d67558cf17b79a082ba25298bfbd1bea6 data/fabulouswands/advancement/recipes/building_blocks/noble_plank.json
+d78bb53987893d8102cae3c3cda6f9ba0c63bf85 data/fabulouswands/advancement/recipes/misc/noble_stick.json
+263f091a9e39b7fb07428fad1a9ee35168bfb07a data/fabulouswands/advancement/recipes/building_blocks/wandcraft_table.json
+25d8d7b4b3fcab820bcddea5e886b4ab48252ed1 data/fabulouswands/advancement/recipes/misc/tame_leather.json

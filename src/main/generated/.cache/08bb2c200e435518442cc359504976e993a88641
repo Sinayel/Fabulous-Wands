@@ -1,11 +1,11 @@
-// 1.21.1	2026-11-24T11:48:03.800619301	Fabulous Wands/Model Definitions
-df42d3ae44f48abe5043aeac247db070f05633a1 assets/fabulouswands/models/item/noble_plank.json
+// 1.21.1	2026-11-24T14:55:22.826478365	Fabulous Wands/Model Definitions
 3dcbbb7db343aeb9f011ff3757e70664ee363c1c assets/fabulouswands/models/block/noble_plank.json
+7de27f824d49a8da2240c6a8eb9317e8f9cd9ce8 assets/fabulouswands/blockstates/noble_plank.json
+df42d3ae44f48abe5043aeac247db070f05633a1 assets/fabulouswands/models/item/noble_plank.json
 b14f413f6fea62f24d61220eac6f8158b8668036 assets/fabulouswands/models/item/tame_leather.json
-0a9090b22ec7d5bfa734ca265542d89ebf41f824 assets/fabulouswands/models/block/noble_log_horizontal.json
+e0f1a4d37df617405ca620fb9fbfe8ab5f7862a0 assets/fabulouswands/models/block/noble_log.json
+54524be35b33a93e9dfd05c71002d6909c998bab assets/fabulouswands/models/item/noble_log.json
+b4ff663c2d67061facd1949328a4c5cfd285ee71 assets/fabulouswands/blockstates/noble_log.json
 d159275bd2f0a7a954ade19fe3661ecc3d3b27aa assets/fabulouswands/models/item/noble_stick.json
 ec8659d851dfe4d826f798bb84af43f5c131bc7e assets/fabulouswands/models/item/magic_book.json
-e0f1a4d37df617405ca620fb9fbfe8ab5f7862a0 assets/fabulouswands/models/block/noble_log.json
-7de27f824d49a8da2240c6a8eb9317e8f9cd9ce8 assets/fabulouswands/blockstates/noble_plank.json
-b4ff663c2d67061facd1949328a4c5cfd285ee71 assets/fabulouswands/blockstates/noble_log.json
-54524be35b33a93e9dfd05c71002d6909c998bab assets/fabulouswands/models/item/noble_log.json
+0a9090b22ec7d5bfa734ca265542d89ebf41f824 assets/fabulouswands/models/block/noble_log_horizontal.json

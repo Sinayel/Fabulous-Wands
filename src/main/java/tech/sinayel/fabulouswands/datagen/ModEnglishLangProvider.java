@@ -31,5 +31,7 @@ public class ModEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add("itemgroup.fabulouswands.fabulouswands_item", "Fabulous Items");
         translationBuilder.add("itemgroup.fabulouswands.fabulouswands_block", "Fabulous Wands Blocks");
         translationBuilder.add("itemgroup.fabulouswands.fabulouswands_book", "Fabulous Wands Spells Books");
+        translationBuilder.add("key.fabulouswands.spell_wheel", "Roue des sorts");
+        translationBuilder.add("category.fabulouswands", "Fabulous Wands");
     }
 }

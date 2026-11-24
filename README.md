@@ -252,8 +252,9 @@ The mod `.jar` will be in `build/libs/`.
 - [X] 1 Spell
 - [X] Add Craft, Plank, Stick
 - [X] WandCraft Table, Tame Leather
+- [X] Spell Wheel
+- [ ] Guide Book
 - [ ] Ollivander Workbench
-- [ ] Spell Wheel
 - [ ] Noble Tree and world generation
 - [ ] Upgrade shooting styles (without bullet drop or less)
 - [ ] Wizard NPC

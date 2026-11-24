@@ -59,8 +59,8 @@ public class SpellEntity extends ThrownItemEntity implements Ownable {
         super.tick();
         if(!this.getWorld().isClient() && this.age >= 100)
             this.explode();
-//        if(!this.getWorld().isClient() && this.age >= 105)
-//            this.discard();
+        if(!this.getWorld().isClient() && this.age >= 105)
+            this.discard();
     }
 
     // Explosion fonction

@@ -7,8 +7,6 @@ import net.minecraft.text.Text;
 
 public class SpellBookScreen extends Screen {
 
-    private static final String[] SPELLS = {"Expelliarmus", "Lumos", "Avada Kedavra"};
-
     private static final int BUTTON_WIDTH = 120;
     private static final int BUTTON_HEIGHT = 20;
     private static final int SPACING = 4;
@@ -19,6 +17,8 @@ public class SpellBookScreen extends Screen {
 
     @Override
     protected void init() {
+        String[] SPELLS = {"Expelliarmus", "Lumos", "Avada Kedavra"};
+
         int totalHeight = SPELLS.length * (BUTTON_HEIGHT + SPACING) - SPACING;
         int startY = (this.height - totalHeight) / 2;
         int x = (this.width - BUTTON_WIDTH) / 2;

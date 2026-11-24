@@ -33,7 +33,6 @@ public class SpellEntity extends ThrownItemEntity implements Ownable {
 
     public SpellEntity(World world, double x, double y, double z) { super(ModEntities.SPELL, x, y, z, world); }
 
-
     @Override
     protected Item getDefaultItem() {
         return ModBlocks.NOBLE_PLANK.asItem(); // apparence en vol (temporaire)

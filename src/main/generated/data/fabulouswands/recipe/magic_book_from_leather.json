@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "L": {
+      "item": "fabulouswands:tame_leather"
+    }
+  },
+  "pattern": [
+    "LBL"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fabulouswands:magic_book"
+  }
+}

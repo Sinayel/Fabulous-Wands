@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_book": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:book"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tame_leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "fabulouswands:tame_leather"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "fabulouswands:magic_book_from_leather"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_book",
+      "has_tame_leather"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "fabulouswands:magic_book_from_leather"
+    ]
+  }
+}

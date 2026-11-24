@@ -9,6 +9,8 @@ import net.minecraft.client.render.entity.FlyingItemEntityRenderer;
 import net.minecraft.client.util.InputUtil;
 import org.lwjgl.glfw.GLFW;
 import tech.sinayel.fabulouswands.entity.ModEntities;
+import tech.sinayel.fabulouswands.item.ModItems;
+import tech.sinayel.fabulouswands.item.WandItem;
 import tech.sinayel.fabulouswands.screen.SpellWheelScreen;
 
 public class FabulousWandsClient implements ClientModInitializer {
@@ -28,7 +30,7 @@ public class FabulousWandsClient implements ClientModInitializer {
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             while (openSpellWheel.wasPressed()) {
-                if (client.currentScreen == null && client.player != null) {
+                if ((client.currentScreen == null && client.player != null) && client.player.getMainHandStack().isOf(ModItems.WAND)) {
                     client.setScreen(new SpellWheelScreen());
                 }
             }

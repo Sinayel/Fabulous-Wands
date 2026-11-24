@@ -2,7 +2,7 @@
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-green)
 ![Loader](https://img.shields.io/badge/Loader-Fabric-dbd0b4)
-![Java](https://img.shields.io/badge/Java-21-orange)
+![Java](https://img.shields.io/badge/Java-21/25-orange)
 ![Status](https://img.shields.io/badge/Status-Pre--Alpha%201.0-red)
 
 **Fabulous Wands** is a Minecraft mod that adds **magic wands**, inspired by Harry Potter.
@@ -42,6 +42,10 @@ Craft wands with different **types** and **specialties**, cast **spells**, wear 
 ![Tame Leather](img/tame_leather_craft.png)
 \
 *(2 Leather = **1 Tame Leather**)*
+
+![Guide Book](img/guide_book_craft.png)
+\
+*(2 Leather & 1 Book = **1 Guide Book**)*
 
 ![Wandcraft Table](img/wandcraft_table_craft.png)
 \
@@ -253,11 +257,12 @@ The mod `.jar` will be in `build/libs/`.
 - [X] Add Craft, Plank, Stick
 - [X] WandCraft Table, Tame Leather
 - [X] Spell Wheel
-- [ ] Guide Book
+- [X] Guide Book
 - [ ] Ollivander Workbench
 - [ ] Noble Tree and world generation
-- [ ] Upgrade shooting styles (without bullet drop or less)
+- [ ] More Spells
 - [ ] Wizard NPC
+- [ ] Upgrade shooting styles (without bullet drop or less)
 - [ ] More content (armor, tools, specialties, special items…)
 
 

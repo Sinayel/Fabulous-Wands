@@ -7,6 +7,8 @@ import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.util.Identifier;
+import tech.sinayel.fabulouswands.FabulousWands;
 import tech.sinayel.fabulouswands.block.ModBlocks;
 import tech.sinayel.fabulouswands.item.ModItems;
 
@@ -33,6 +35,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('#', ModBlocks.NOBLE_PLANK)
                 .criterion(hasItem(ModBlocks.NOBLE_PLANK), conditionsFromItem(ModBlocks.NOBLE_PLANK))
                 .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIC_BOOK)
+                .pattern("LBL")
+                .input('B', Items.BOOK)
+                .input('L', ModItems.TAME_LEATHER)
+                .criterion(hasItem(Items.BOOK), conditionsFromItem(Items.BOOK))
+                .criterion(hasItem(ModItems.TAME_LEATHER), conditionsFromItem(ModItems.TAME_LEATHER))
+                .offerTo(exporter, Identifier.of(FabulousWands.MOD_ID, "magic_book_from_leather"));
 
         // Blocks
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.NOBLE_PLANK, 4)

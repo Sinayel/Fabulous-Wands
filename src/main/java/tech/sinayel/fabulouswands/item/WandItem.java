@@ -40,7 +40,7 @@ public class WandItem extends Item implements ProjectileItem {
         );
         if (!world.isClient) {
             SpellEntity wandEntity = new SpellEntity(world, user);
-            wandEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 1.5F, 1.0F);
+            wandEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 0.5F, 1.0F);
             wandEntity.setNoGravity(true);
             world.spawnEntity(wandEntity);
         }

@@ -9,6 +9,9 @@ import net.minecraft.entity.Ownable;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.item.Item;
+import net.minecraft.particle.ParticleEffect;
+import net.minecraft.particle.ParticleTypes;
+import net.minecraft.server.world.ServerWorld;
 import tech.sinayel.fabulouswands.block.ModBlocks;
 import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.util.hit.HitResult;
@@ -49,20 +52,25 @@ public class SpellEntity extends ThrownItemEntity implements Ownable {
         super.onCollision(hit);
         if (!this.getWorld().isClient) {
             this.explode();
-            this.discard(); // disparaît à l'impact
+            this.discard();
         }
     }
 
+    // Casting the world for apply particle
     @Override
     public void tick() {
         super.tick();
-        if(!this.getWorld().isClient() && this.age >= 100)
+        if(!this.getWorld().isClient() && this.age >= 100) {
             this.explode();
-        if(!this.getWorld().isClient() && this.age >= 105)
-            this.discard();
+            if(this.age >= 104)
+                this.discard();
+        } else if (!this.getWorld().isClient()) {
+            ServerWorld serverWorld = (ServerWorld) this.getWorld();
+            serverWorld.spawnParticles(ParticleTypes.FLAME, this.getX(), this.getY(), this.getZ(), 2, 0.1, 0.1, 0.1, 0.015);
+        }
     }
 
-    // Explosion fonction
+    // Explosion function
     private static final ExplosionBehavior TELEPORTED_EXPLOSION_BEHAVIOR = new ExplosionBehavior() {
         @Override
         public boolean canDestroyBlock(Explosion explosion, BlockView world, BlockPos pos, BlockState state, float power) {

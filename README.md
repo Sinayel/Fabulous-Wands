@@ -34,36 +34,34 @@ Craft wands with different **types** and **specialties**, cast **spells**, wear 
 
 ![Noble Plank](img/noble_plank_craft.png)
 \
-*(1 Noble Log = **4 Noble Planks**)*
+*(1 [Noble Log](#noble-wood) = **1 [Noble Plank](#noble-plank)**)*
 
 ![Noble Stick](img/noble_stick_craft.png)
 \
-*(2 Noble Plank = **2 Noble Stick**)*
+*(2 Noble Plank = **2 [Noble Sticks](#noble-stick)**)*
 
 ![Tame Leather](img/tame_leather_craft.png)
 \
-*(2 Leather = **1 Tame Leather**)*
+*(2 Leather = **1 [Tame Leather](#tame-leather)**)*
 
 ![Guide Book](img/guide_book_craft.png)
 \
-*(2 Leather & 1 Book = **1 Guide Book**)*
+*(2 Leather & 1 Book = **1 [Guide Book](#-special-items)**)*
 
 ![Wandcraft Table](img/wandcraft_table_craft.png)
 \
-*(2 Tame Leather & 2 Noble Plank = **1 Wandcraft Table**)*
+*(2 Tame Leather & 2 Noble Plank = **1 [WandCraft Table](#-wandcraft-table)**)*
 
 ---
 
 ## ✨ Features
 
-- 🪄 **Wands** with 5 types, specialties (fire, water, air, lightning…) and their own spells
-- 🔮 **Spell system** with cooldowns, quick switch and a spell selection menu
-- 🛡️ **Wizard armor** in 3 tiers, with bonuses like extra health and temporary flight
-- ⚔️ **Enchanted tools** (sword, axe, pickaxe) that can carry spells
+- 🪄 **Wands** with 5 types, specialties (fire, air, lightning…) and their own spells
+- 🔮 **Spell system** with revisited cooldowns methode, quick switch and a spell selection menu
+- 🛡️ **Wizard armor** in 3 tiers, with bonuses like extra health, temporary flight, shields and more... <!-- - ⚔️ **Enchanted tools** (sword, axe, pickaxe) that can carry spells -->
 - 🧰 **WandCraft Table** to craft wands and wizard gear
 - 🔧 **Ollivander Workbench** to repair wands, armor and tools
 - 🌲 **Noble tree**, a rare new tree found in dark and taiga forests
-- ⚡ **Lightning powder**, collected when lightning strikes a lightning rod
 - 🧙 **Wizard NPC** that trades wands, spells and potions
 
 ---
@@ -81,17 +79,16 @@ Every wand is defined by:
 ### Types, specialties & durability
 
 The **specialty** of a wand is linked to its **type**, and comes from the [special item](#-special-items) used to craft it.
-Type 1 is the worst and most common, type 5 is the best and rarest.
+Type 1 is the worst and most common, type 4 is the best and rarest.
 
 | Type | Title               | Specialty     | Rarity | Durability |
 | :--: | ------------------- | ------------- | :----: | :--------: |
 |  1   | Apprentice Wizard   | ⚡ Lightning   |   ★    |    300     |
-|  2   | Novice Wizard       | 💧 Water      |   ★★   |    550     |
-|  3   | Medium Wizard       | 🔥 Fire       |  ★★★   |    850     |
-|  4   | Master Wizard       | *Coming soon* |  ★★★★  |    1250    |
-|  5   | Grand Master Wizard | 🌪️ Air       | ★★★★★  |    1650    |
+|  3   | Medium Wizard       | 🔥 Fire       |  ★★   |    850     |
+|  4   | Master Wizard       |️   🌪Air | ★★★  |    1250    |
+|  5   | Grand Master Wizard | *Coming soon...*       | ★★★★  |    1650    |
 
-★ = common ★★★★★ = very rare
+★ = common ★★★★ = very rare
 
 Wands can be **crafted** in the WandCraft Table or **bought** from the [Wizard NPC](#-wizard-npc).
 
@@ -116,15 +113,15 @@ Wands can be **crafted** in the WandCraft Table or **bought** from the [Wizard N
 Crafted in the **WandCraft Table**. Armor is **unbreakable**: it has a durability and is repaired at the **Ollivander Workbench**.
 You must **wear the armor** to use the matching wands.
 
-| Armor | Bonus | Unlocks wands | Durability |
-|---|---|:---:|:---:|
-| Apprentice Wizard | More spells | Type 1-2 | ~150 |
-| Medium Wizard | + Extra health | Type 3-4 | ~450 |
-| Master Wizard | + Flight & armor levels | Type 5 | ~650 |
+| Armor | Bonus | Unlocks wands | Durability | Shield |
+|---|---|:---:|:---:|:---:|
+| Apprentice Wizard | More spells + shield and armor levels| Type 1-2 | ~150 |50|
+| Medium Wizard | + Extra health + place a block right below you* & prev bonus | Type 3 | ~450 |150|
+| Master Wizard | + Slow falling* & prev bonus | Type 4 | ~650 |250|
 
-Each armor tier also keeps the bonuses of the previous ones.
+( '*' *= This bonus can be activated by a key in you're minecraft setting*)
 
-**Flight:** double press **Space** to fly. Flight is temporary, from **2m30 up to 15 min** as you level up the armor.
+Each armor tier also keeps the bonuses of the previous ones. <!-- **Flight:** double press **Space** to fly. Flight is temporary, from **2m30 up to 15 min** as you level up the armor. -->
 
 ### Tools
 
@@ -202,11 +199,12 @@ Special items give a wand its **specialty** and are used to repair gear.
 | Special item | Specialty | How to get it |
 |---|---|---|
 | ⚡ **Lightning Powder** | Lightning | Place a **lightning rod** with a clear view of the sky during a **thunderstorm**. When lightning strikes it: 66% → 1 powder, 33% → 2 powders, 1% → nothing. Immune to fire and explosions. |
+| 📚 **Guide Book** | ________ | Helps you to **discover the mod**, and the capacity of ***wands**, **armor**, **tools*** & more...|
 | *More coming soon…* | | |
 
 ---
 
-## 🧙 Wizard NPC
+## 🧙 Wizard NPC1
 
 Wizards live in **their own house** in the same biomes as the Noble Tree.
 They trade **wands, spells and potions** for **special items**, **emeralds** and **coins**.
